@@ -51,7 +51,6 @@ pip install -r requirements.txt
 cp .env.example .env            # put your OPENAI_API_KEY in .env
 python -m app.ingest            # build the indexes (or use the "Build index" button)
 python -m app.ui                # open http://localhost:7860
-pytest                          # offline tests, no API key needed
 ```
 
 ## Debug log
