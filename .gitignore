@@ -2,3 +2,4 @@
 storage/
 __pycache__/
 logs/
+tests/
